@@ -10,20 +10,19 @@ const integrantes = [
         nombre: "Profesor Guía",
         rol: "Tech Lead / Git Instructor",
         bio: "Encargado de evaluar el control de versiones y la resolución quirúrgica de los conflictos de código."
-    },
+    },                          // ← aquí faltaba
     {
         id: 2,
         nombre: "Desarrollador Base",
         rol: "Fullstack Developer",
         bio: "Estructura inicial del sistema lista para recibir las tarjetas de los nuevos ingenieros del equipo."
-    }
+    },                          // ← aquí faltaba
     {
         id: 3,
         nombre: "Sonicse Develop",
         rol: "Front Enginner",
         bio: "Especialista en interfaces de usuario. Diseñando la experiencia interactiva en KRAKEDEV."
-    }
-
+    }                           
 ];
 
 // Función para renderizar las tarjetas dinámicamente en el HTML
